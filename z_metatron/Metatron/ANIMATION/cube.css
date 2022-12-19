@@ -1,0 +1,16 @@
+.cube {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.face {
+    position: absolute;
+    font-size: 2em;
+    border: 10px solid rgba(23, 22, 22, 0.1);
+    display: flex;
+    margin: auto;
+    text-align: center;    
+}

@@ -1,0 +1,94 @@
+footer{
+    /* background-color: rgb(0, 255, 200); */
+    background-color: rgb(255, 162, 0);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#cadreCoordonnees{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid red;
+    font-family: Montserrat;
+}
+
+#sitesPro{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: DynaPuff;
+}
+
+#espacePro{width:60px;}
+
+#linkedin1, #github1{
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+}
+
+#linkedin1  {background-color:white; border:1px solid black;}
+#github1    {background-color:black; border:1px solid white;}
+
+#linkedin2, #github2    {text-decoration: none;font-style: normal;}
+
+#linkedin2  {color: #0a66c2;}
+#github2    {color: white;}
+
+#linkedin, #github{
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    border-radius: 20%;
+    font-style: normal;
+}
+
+#linkedin   {background-color: #0a66c2;}
+#github     {background-color: rgb(245,150,32);}
+
+#texteFooter    {padding-right: 20px;}
+
+#moi    {border-radius: 50%;}
+
+@media screen and (min-width: 200px) {
+    #texteFooter            {font-size: 5px;}
+    #moi                    {width:     50px;}
+    #linkedin1, #github1    {width:     50px;}
+    footer                  {height:    200px;}  
+    #espacePro{width:5px;}
+}
+
+@media screen and (min-width: 500px) {
+    #texteFooter            {font-size: 10px;}
+    #moi                    {width:     100px;}
+    #linkedin1, #github1    {width:     100px;}
+    footer                  {height:    200px;}  
+}
+
+@media screen and (min-width: 700px) {
+    #texteFooter            {font-size: 20px;}
+    #moi                    {width:     150px;}
+    #linkedin1, #github1    {width:     180px;}
+    footer                  {height:    250px;}  
+}
+
+@media screen and (min-width: 1200px) {
+    #texteFooter            {font-size: 40px;}
+    #moi                    {width:     280px;}
+    #linkedin1, #github1    {width:     280px;}
+    #linkedin, #github      {margin-left: -5px;}
+    footer                  {height:    400px;}  
+}
+
+@media screen and (min-width: 1900px) {
+    #texteFooter            {font-size: 50px;}
+    #moi                    {width:     280px;}
+    #linkedin1, #github1    {width:     280px;}
+    #linkedin, #github      {margin-left: -5px;}
+    footer                  {height:    400px;}  
+}

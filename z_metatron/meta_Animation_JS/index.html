@@ -1,0 +1,124 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ spirale ulam 3D</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script async src="algorithmes/spirale.js"></script>
+    <script async src="algorithmes/crible.js"></script>
+    <script async src="dom.js"></script>
+    <script async src="boutons.js"></script>
+    <script async src="camera.js"></script>
+    <script async src="cube.js"></script>
+    <script async src="sommet.js"></script>
+    <script async src="action.js"></script>
+
+</head>
+
+<body>
+
+    <div id="cadre">
+        
+        <div id="cadreGraph">
+            <div id="graph">
+                <div id="spirale" class='cube'></div>
+            </div>
+        </div>
+
+        <div id="commandes">
+
+            <h1>Animation du Métatron</h1>
+
+            <div id="repere" class='cube espace'>
+                <div class="w100 face top">nord</div>    
+                <div class="w100 face bottom">sud</div>
+                <div class="w100 face left">ouest</div>
+                <div class="w100 face right">est</div>
+                <div class="w100 face front">ciel</div>
+                <div class="w100 face back">terre</div>
+            </div>
+
+            <strong>ROTATION sur AXE </strong>
+            
+            <br><br>
+
+            <button onclick="net_A()">Ciel Sud Est</button>
+            <button onclick="sec_A()">Terre Sud Ouest</button>
+            <button onclick="sot_A()">Ciel Nord Ouest</button>
+            <button onclick="noc_A()">Terre Nord Est</button>
+          
+            <br><br>
+
+            <button onclick="xMin()">&nbsp; -x &nbsp;</button>
+            <button onclick="xMax()">&nbsp; +x &nbsp;</button>
+            <button onclick="yMin()">&nbsp; -y &nbsp;</button>
+            <button onclick="yMax()">&nbsp; +y &nbsp;</button>
+            <button onclick="zMin()">&nbsp; -z &nbsp;</button>
+            <button onclick="zMax()">&nbsp; +z &nbsp;</button>
+
+            <br><br>
+
+            touches claviers : A Z E R T Y
+            
+            <br><br>
+            -----------------------------------------
+            <br><br>
+            
+            <strong>PARAMETRES DE L'ANIMATION </strong>
+            <br><br>
+
+            <strong>fréquence : </strong><i id="frequence">200</i> ms
+            <br>
+            <button onclick="freq2()">2 ms</button>
+            <button onclick="freq20()">20 ms</button>
+            <button onclick="freq200()">200 ms</button>
+            <button onclick="freq500()">500 ms</button>
+            <button onclick="freq1000()">1000 ms</button>
+            <button onclick="freq2000()">2000 ms</button>
+            <br><br>
+
+            <strong>largeur du cube : </strong><i id="widthCube">50</i> px
+            <br>
+            <button onclick="agrandir()">Agrandir</button>
+            <button onclick="retrecir()">Rétrécir</button>
+            <br><br>
+
+            <strong> inscription du cube :</strong> <i id="inscription">nombre affiché</i>
+            <br>
+            <button onclick="effacer()">Effacer</button>
+            <button onclick="montrer()">Montrer</button>
+            <br><br>
+
+            <strong> sauter la phase : </strong><i id="debutPhase">0</i>
+            <br>
+            <button onclick="sommetPlus()">phase supérieur</button>
+            <button onclick="sommetMoins()">phase inférieur</button>
+            <br><br>
+
+            <strong> imprimer : </strong><i id="naturelOuPremier">tous les nombres</i>
+            <br>
+            <button onclick="tousLesNombres()">tous les nombres</button>
+            <button onclick="queLesNombresPremiers()">que les nombres premiers</button>
+            <button onclick="lePlanXEgal3()">le plan x = 3</button>
+            <button onclick="lesNombresPairs()">les nombres pairs</button>
+            <br><br>
+
+            -----------------------------------------
+            <br><br>
+
+            <button onclick="gogo()">Lecture</button>
+            <button onclick="stop()">Pause</button>
+            <a href="index.html"><strong>RESET</strong></a>
+
+            <p> nombre :<i id="nombreEdite"></i></p>
+
+        </div>
+    </div>
+
+    <div id='calcul'></div>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<br>
+<div>
+    <h2>Outils et Méthodes :</h2>
+    <p>
+        <br>
+        &nbsp;
+        Je m'intéresse aux nombres premiers depuis ≈ 20 ans (<a href="../anciensTravauxMaths" target="_blank">différentes pistes</a> (liste non exhaustive)). 
+        Si la spirale d'Ulam révèle un intérêt ; 
+        <strong>par pur raisonnement logique</strong> (me suis-je dit); 
+        son pendant tridimensionnel aussi. 
+        La première difficulté, c'était de trouver un chemin 3D cohérent ! 
+        Mes outils de base sont : <strong>papier & crayon</strong>. 
+        Mais ça ne m'a pas suffit. J'ai eu recours au 
+        <a href="https://fr.wikipedia.org/wiki/Lego">Légo</a>. Et avant de passer à des 
+        outils plus sophistiqués (ordinateur & langages de programmation), une fois que 
+        j'ai trouvé le chemin... j'ai médité sur mon travail, je l'ai remis en question 
+        plusieurs fois... est-ce le bon chemin ?
+  
+    </p>
+    <p>
+        <br>
+        &nbsp;
+        Dans un premier temps, je vais argumenter en faveur de ce chemin et 
+        vous l'expliquer.
+        <br>
+        <br>
+        <h3>Les 2 règles de base du métatron sont :</h3>
+        <ol>
+            <li>réaliser un cube de plus en plus grand en passant par tous les n<sup>3</sup></li>
+            <li>former (le plus possible) un mouvement en spirale</li>
+        </ol>
+        <br>
+    </p>
+
+    <div id="miseEnPageDesEtapes">    
+
+        <div class="explicationsEvolutionMetatronOeM">
+            <img id="Figure2a" src="<?php echo $cube1; ?>" alt="premier cube unitaire du Métatron de valeur 1" >
+            <div class="figure_Numero"><strong>Figure 2-a</strong></div>
+        </div>
+
+        <div class="explicationsEvolutionMetatronOeM">
+            <img id="Figure2b" src="<?php echo $cube1_4; ?>" alt="Métatron de 1 à 4, mouvement centrifuge horaire, surface carrée de 2*2">
+            <div class="figure_Numero"><strong>Figure 2-b</strong></div>
+        </div>
+
+        <div class="explicationsEvolutionMetatronOeM">
+            <img id="Figure2c" src="<?php echo $cube2_8; ?>" alt="Métatron de 1 à 8, représentation de 2 à 8 d'un mouvement centripète horaire, cube de 2^3">
+            <div class="figure_Numero"><strong>Figure 2-c</strong></div>
+        </div>
+
+        <div class="explicationsEvolutionMetatronOeM">
+            <img id="Figure2d" src="<?php echo $cube2_13; ?>" alt="Métatron de 1 à 13, représentation de 5 à 13 d'un mouvement centrifuge horaire, nouvelle surface de 3*3">
+            <div class="figure_Numero"><strong>Figure 2-d</strong></div>
+        </div>
+
+        <div class="explicationsEvolutionMetatronOeM">
+            <img id="Figure2e" src="<?php echo $cube9_27; ?>" alt="Métatron de 1 à 27, représentation de 9 à 27 d'un mouvement centripète anti-horaire, nouveau cube de 3^3">
+            <div class="figure_Numero"><strong>Figure 2-e</strong></div>
+        </div>
+
+        <div class="explicationsEvolutionMetatronOeM">
+            <img id="Figure2f" src="<?php echo $cube9_34; ?>" alt="Métatron de 1 à 34, représentation de 24 à 34 d'un mouvement centrifuge horaire (c'est vu du dessous), et nouvelle surface de 4*4">
+            <div class="figure_Numero"><strong>Figure 2-f</strong></div>
+        </div>
+
+    </div>
+
+
+    <div class="figure_Legende">
+        <p>
+            &nbsp;
+            <i class="figure_Titre">
+                <strong>Figure 2 :</strong> explication du mouvement spiralé du métatron 
+            </i>
+            <br>&nbsp;
+            <strong>Figure 2_a :</strong> On commence par le cube d'origine 1<sup>3</sup>.
+            <br>&nbsp;
+            <strong>Figure 2_b :</strong>
+            Nous entammons le début de la spirale d'Ulam avec un <strong>mouvement centrifuge horaire</strong> 
+            jusqu'au nombre 4, nous obtenons ainsi une surface 
+            carrée de 2<sup>2</sup>.
+            <br>&nbsp;
+            <strong>Figure 2_c :</strong>
+            C'est à partir du nombre 5 qu'on passe réellement de la 2D à la 3D. On positionne 
+            le nombre 5 au-dessus du nombre 4, ce qui nous permet ensuite de continuer à tourner et 
+            finalement de former un cube de 2<sup>3</sup>. On peut observer selon l'angle d'observation 
+            un <strong>mouvement centripète horaire</strong>.
+            <br>&nbsp;
+            <strong>Figure 2_d :</strong>
+            Une fois le cube de 2<sup>3</sup> formé, on réalise à nouveau un <strong>mouvement centrifuge horaire</strong> 
+            pour créer une surface carrée plus grande de 3<sup>2</sup> afin de préparer la prochaine étape, 
+            à savoir former un cube plus grand.
+            <br>&nbsp;
+            <strong>Figure 2_e :</strong>
+            On forme ainsi le cube 3<sup>3</sup> mais cette fois-ci on a un <strong>mouvement centripète 
+            trigonométrique</strong> (anti-horaire).
+            <br>&nbsp;
+            <strong>Figure 2_f :</strong>
+            Une nouvelle fois, à partir d'un cube complet, on dessine toujours avec un <strong>mouvement centrifuge horaire</strong>
+            une surface carrée plus grande (ici 4<sup>2</sup>) 
+            en vu de construire le futur cube 4<sup>3</sup>.
+
+
+        </p>
+    </div>
+
+    <p>
+        <br>
+        &nbsp;
+        Comme illustrée dans la Figure 2, le Métatron que j'ai imaginé est le 
+        pendant de la spirale d'Ulam en 3D. On obtient bien un mouvement spiralé 
+        centrifuge toujours dans le même sens. C'est juste qu'à chaque étape, on 
+        obtient aussi un mouvement de spirale centripète qui lui change de sens 
+        selon la modulation par 2 de n pour n<sup>3</sup>.
+        <br>
+        &nbsp;
+        Il m'a fallu quelques semaines pour bien appréhender le Métatron, le valider 
+        (parce qu'on peut toujours trouver d'autres chemins mais celui que je vous présente 
+        me paraît le meilleur selon les 2 critères définis au départ) et écrire un 
+        <a href="../meta_Animation_JS\algorithmes\spirale.js" target="_blank">algorithme</a>. 
+
+    </p>
+
+    <br>
+    <h3>Les étapes du métatron sont :</h3>
+    <ol>
+        <li>agrandir le périmètre en définissant une surface plus grande</sup></li>
+        <li>former un plus grand cube en recouvrant 3 de ses surfaces par une nouvelle épaisseur de cubes unitaires</li>
+    </ol>
+    
+    <p>
+        <br>
+        &nbsp;
+        Pour mon étude, les langages de programmations utilisés sont 
+        <a href="https://fr.wikipedia.org/wiki/JavaScript" target="_blank">javascript</a>, 
+        <a href="https://fr.wikipedia.org/wiki/PHP" target="_blank">php</a> et 
+        <a href="https://fr.wikipedia.org/wiki/Structured_Query_Language" target="_blank">sql</a>.
+    </p>
+
+</div>

@@ -1,0 +1,113 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#cadre{
+    display: flex;
+}
+
+#info{
+    margin: 0px;
+    background-color: rgb(165, 157, 42);
+}
+
+#cadreGraph{
+    width : 900px;
+    height: 900px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#commandes{
+    margin-left: 20px;
+    width : 900px;
+    /* border: 1px solid saddlebrown; */
+}
+
+#graph{
+    width:20px;
+    height: 20px;
+    /* border: 1px solid black; */
+}
+
+
+
+
+/* CAMERA =======================================*/
+@keyframes mymove_SEC_SOT {
+    0%   {transform : rotateX(250deg) rotateY(-180deg) rotateZ(-130deg);}
+    100% {transform : rotateX(310deg) rotateY(-180deg) rotateZ(-220deg);}
+}
+
+@keyframes mymove_SOT_NOC {
+    0%   {transform : rotateX(130deg) rotateY(0deg) rotateZ(-40deg);}
+    100% {transform : rotateX(60deg) rotateY(0deg) rotateZ(-140deg);}
+}
+
+@keyframes mymove_NOC_NET {
+    0% {transform : rotateX(60deg) rotateY(0deg) rotateZ(-140deg);}
+    100% {transform : rotateX(130deg) rotateY(0deg) rotateZ(-230deg);}
+}
+
+@keyframes mymove_NET_SEC {
+    0% {transform : rotateX(130deg) rotateY(0deg) rotateZ(-230deg);}
+    100% {transform : rotateX(250deg) rotateY(-180deg) rotateZ(-130deg);}
+}
+/* CAMERA =======================================*/
+
+
+/* CUBE =======================================*/
+.w100{
+    width: 100px;
+    height: 100px;
+}
+
+#repere{    margin: 50px;}
+
+.cube {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.face {
+    position: absolute;
+    font-size: 2em;
+    border: 10px solid rgba(23, 22, 22, 0.1);
+    display: flex;
+    margin: auto; /* Important */
+    text-align: center;    
+}
+
+.top {
+    background-color: violet;  
+    transform:  rotateX(90deg) translateZ(50px);
+}
+.bottom {
+    background-color: mediumblue;   
+    transform:  rotateX(-90deg) translateZ(50px);
+}
+.left {
+    background-color: brown;
+    transform: rotateY(-90deg) translateZ(50px);
+}
+.right {
+    background-color: yellowgreen;
+    transform: rotateY(90deg) translateZ(50px);
+}
+.front {
+    background-color: turquoise;
+    transform: translateZ(50px);
+}
+.back {
+    background-color: purple;
+    transform: translateZ(50px) rotateY(180deg) translateZ(100px);
+}
+/* CUBE =======================================*/

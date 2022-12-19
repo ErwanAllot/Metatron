@@ -1,0 +1,116 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tranche en plan du métatron</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script async src="dom.js"></script>
+    <script async src="standard.js"></script>
+    <script async src="planParticulier.js"></script>
+    <script async src="constanteX.js"></script>
+    <script async src="constanteY.js"></script>
+    <script async src="constanteZ.js"></script>
+    
+
+</head>
+
+<body>
+    <main>
+
+<center>
+    <div id="cadreExterne">
+
+
+
+        <div id="onMontreMetatron" class="onMontreMetatron">
+            <div id="graphTotal">
+                <div id="graph2D_1">
+                    <div id="graph2D_2"></div>
+                </div>
+            </div>
+            <DIV id="plan"></DIV>
+            <strong id="ouest"></strong>
+            <strong id="nord"></strong>
+            <strong id="est"></strong>
+            <strong id="sud"></strong>
+        </div>
+
+        <div id="boutonsEtinformations">
+
+            <h1>Métatron, tranche en plan</h1>
+            <br>
+            <h2>pour un peu plus de 1 million de nombres premiers 
+                enregistrés
+            </h2>
+
+            <br><br>
+            -----------------------------------------
+            <br><br>
+            <strong id="xyz">x ou y ou z = </strong><i id="valeurDeLaConst"></i>
+            <br><br>
+            -----------------------------------------
+            <br><br>
+
+            <br><br>
+            <h3>Animation par tranche en plan (délais 5 secondes)</h3>
+
+            <br><br>
+            <h4>avec x = constante</h4>
+            <button id="constXplus100" onclick="moteur_constanteXplus100()">Lancer l'animation de [0;100]</button>
+            <button id="constXmoins100" onclick="moteur_constanteXmoins100()">Lancer l'animation de [0;-100]</button>
+
+            <br><br>
+            <h4>avec y = constante</h4>
+            <button id="constYplus100" onclick="moteur_constanteYplus100()">Lancer l'animation de [0;100]</button>
+            <button id="constYmoins100" onclick="moteur_constanteYmoins100()">Lancer l'animation de [0;-100]</button>
+
+            <br><br>
+            <h4>avec z = constante</h4>
+            <button id="constZplus100" onclick="moteur_constanteZplus100()">Lancer l'animation de [0;100]</button>
+            <button id="constZmoins100" onclick="moteur_constanteZmoins100()">Lancer l'animation de [0;-100]</button>
+
+            
+            <br><br><br><br>
+            -----------------------------------------
+            <br><br>
+
+            <!--    --> 
+
+            <br><br>
+            <h3>Choisissez le plan que vous souhaitez voir en particulier</h3>
+            <br><br>
+            <form>
+                <label for="Number">
+                  Entrer un nombre (entre -100 et 100):
+                </label>
+                <input type="number" id="Number" 
+                       name="Number" min="-100" max="100" value=0>
+                <br>
+                
+            </form>
+            <div id='radiobuttonset'>
+                <input type='radio' id='myradio_1' name='radiobutton' value='X' checked />X
+                <input type='radio' id='myradio_2' name='radiobutton' value='Y' />Y
+                <input type='radio' id='myradio_3' name='radiobutton' value='Z' />Z
+            </div>
+
+            <button onclick="planUnique()">Lancer le plan</button>
+
+            
+            
+            <br><br><br><br>
+            -----------------------------------------
+            <br><br><br><br>
+
+            <a href="index.html"><strong>RESET</strong></a>
+        </div>
+
+
+    </div>
+</center>
+</main>
+</body>
+</html>

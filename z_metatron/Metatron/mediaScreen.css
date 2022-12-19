@@ -1,0 +1,254 @@
+@media screen and (min-width: 200px) {
+    h1           {
+        font-size: 1em;
+        margin-top: 0px;
+    }
+    #parErwanAllot{
+        font-size: 1em;
+        margin-top: -10px;
+    }
+    #premierePublication{
+        float:right;
+        font-size: 0.5em;
+        margin-right: 10px;
+        margin-top: -10px;
+    }
+    h2, main{font-size: 0.5em;}
+    #cadre_Anim_Metatron{
+        width : 150px;
+        height: 150px;
+    }
+
+    
+    #Figure2a{height:90px;}
+    #Figure2b{height:90px;}
+    #Figure2c{height:120px;}
+    #Figure2d{height:120px;}
+    #Figure2e{height:160px;}
+    #Figure2f{height:160px;}
+    .explicationsEvolutionMetatronOeM{
+        width : 180px;
+        height: 220px;
+    }
+
+    h3{    margin-left: 5px;}
+    ol{    margin-left: 25px;}
+
+    #Figure3a{height: 70px;}
+    #Figure3b{height:100px;}
+    #Figure3c{height:70px;}
+    .explicationsEvolutionMetatron{
+        width : 150px;
+        height: 150px;
+    }
+
+    #Figure4a{height:150px;}
+    #Figure4b{height:150px;}
+    .onMontreMetatron{
+        width : 200px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+    h1           {
+        font-size: 2em;
+        margin-top: -10px;
+    }
+    #parErwanAllot{
+        font-size: 1em;
+        margin-top: -20px;
+    }
+    #premierePublication{
+        float:right;
+        margin-right: 30px;
+        margin-top: -10px;
+    }
+    h2, main{font-size: 0.5em;}
+    #cadre_Anim_Metatron{
+        width : 400px;
+        height: 400px;
+    }
+    #motClef{
+        display: flex;
+        align-items:baseline;
+    }
+
+    #Figure2a{height:90px;}
+    #Figure2b{height:90px;}
+    #Figure2c{height:120px;}
+    #Figure2d{height:120px;}
+    #Figure2e{height:160px;}
+    #Figure2f{height:160px;}
+    .explicationsEvolutionMetatronOeM{
+        width : 180px;
+        height: 220px;
+    }
+
+    h3{    margin-left: 75px;}
+    ol{    margin-left: 125px;}
+
+    #Figure3a{height: 130px;}
+    #Figure3b{height:180px;}
+    #Figure3c{height:140px;}
+    .explicationsEvolutionMetatron{
+        width : 180px;
+        height: 270px;
+    }
+
+    #Figure4a{height:350px;}
+    #Figure4b{height:350px;}
+    .onMontreMetatron{
+        width : 450px;
+        height: 450px;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+    h1           {
+        font-size: 3em;
+        margin-top: -20px;
+    }
+    #parErwanAllot{
+        font-size: 2em;
+        margin-top: -40px;
+    }
+    #premierePublication{
+        float:right;
+        margin-right: 40px;
+        margin-top: -20px;
+        font-size: 1em;
+    }
+    h2, main{font-size: 0.8em;}
+    #cadre_Anim_Metatron{
+        width : 600px;
+        height: 600px;
+    }
+    #motClef{
+        display: flex;
+        align-items:baseline;
+    }
+
+    #Figure2a{height:100px;}
+    #Figure2b{height:100px;}
+    #Figure2c{height:150px;}
+    #Figure2d{height:150px;}
+    #Figure2e{height:180px;}
+    #Figure2f{height:180px;}
+    .explicationsEvolutionMetatronOeM{
+        width : 200px;
+        height: 270px;
+    }
+    
+    #Figure3a{height: 130px;}
+    #Figure3b{height:180px;}
+    #Figure3c{height:140px;}
+    .explicationsEvolutionMetatron{
+        width : 180px;
+        height: 270px;
+    }
+
+    #Figure4a{height:500px;}
+    #Figure4b{height:500px;}
+    .onMontreMetatron{
+        width : 600px;
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    h1           {
+        font-size: 4em;
+        margin-top: -30px;
+    }
+    #parErwanAllot{
+        font-size: 2em;
+        margin-top: -50px;
+    }
+    #premierePublication{
+        float:right;
+        margin-right: 50px;
+        margin-top: -25px;
+    }
+    h2, main{font-size: 1.5em;}
+    #cadre_Anim_Metatron{
+        width : 1100px;
+        height: 600px;
+    }
+    #motClef{
+        display: flex;
+        align-items:baseline;
+    }
+
+    #Figure2a{height:150px;}
+    #Figure2b{height:150px;}
+    #Figure2c{height:200px;}
+    #Figure2d{height:200px;}
+    #Figure2e{height:250px;}
+    #Figure2f{height:250px;}
+    .explicationsEvolutionMetatronOeM{
+        width : 280px;
+        height: 300px;
+    }
+
+    #Figure3a{height:200px;}
+    #Figure3b{height:230px;}
+    #Figure3c{height:200px;}
+    .explicationsEvolutionMetatron{
+        width : 280px;
+        height: 300px;
+    }
+
+    #Figure4a{height:900px;}
+    #Figure4b{height:900px;}
+    .onMontreMetatron{
+        width : 1100px;
+        height: 1100px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    h1           {
+        font-size: 5em;
+        margin-top: -40px;
+    }
+    #parErwanAllot{
+        font-size: 2em;
+        margin-top: -50px;
+    }
+    #premierePublication{
+        float:right;
+        margin-right: 50px;
+        margin-top: -25px;
+    }
+    h2, main{font-size: 2em;}
+
+    #introduction{
+        width:1000px;
+    }
+    #miseEnPageDesEtapes_Intro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #cadre_Anim_Metatron{
+        margin-left: 50px;
+        margin-top: -150px;
+        width : 700px;
+        height: 700px;
+    }
+    #motClef{
+        display: flex;
+        align-items:baseline;
+    }
+
+    #Figure4a{height:800px;}
+    #Figure4b{height:800px;}
+    .onMontreMetatron{
+        width : 900px;
+        height: 900px;
+    }
+}

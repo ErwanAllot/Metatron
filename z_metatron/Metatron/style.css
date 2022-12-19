@@ -1,0 +1,164 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*hyper imp !!! */
+}
+
+/* HEADER =======================================*/
+header{background-color: rgb(255, 162, 0);}
+
+h1{
+    font-family: Bungee Shade;
+    /* font-size: 5em;
+    margin-top: -40px; */
+    text-align: center;
+}
+
+#parErwanAllot{
+    font-family: Waiting for the Sunrise;
+    /* font-size: 2em;
+    margin-top: -50px; */
+    text-align: center;
+}
+
+#premierePublication{
+    float:right;
+    /* margin-right: 50px;
+    margin-top: -25px; */
+}
+
+
+
+
+/* HEADER =======================================*/
+
+
+body{
+    background-color: rgb(255, 162, 0);
+}
+
+h2{
+    font-family: Bungee Shade;
+}
+
+main{
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 2em;
+    background-color: rgb(108, 144, 134);
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+
+/* INTRODUCTION ============================= */
+
+
+#cadre_Anim_Metatron{
+    /* margin-left: 50px;
+    margin-top: -100px; */
+    margin-top: 25px;
+
+    width : 700px;
+    height: 600px;
+    position: relative;
+    background-color: rgb(244, 217, 204);
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #graph{ */
+    /* width:20px;
+    height: 20px; */
+    /*important pour ne pas avoir de décalage en dehors du cadre*/
+/* } */
+/* INTRODUCTION ============================= */
+
+
+
+
+
+
+#miseEnPageDesEtapes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* FIRUGRE ================================= */
+.figure_Numero{
+    position:absolute;
+    left: 10px;
+    bottom: 0px;
+}
+.figure_Titre{
+    text-decoration: underline;
+}
+.figure_Legende{
+    /* text-align: justify;
+    text-justify: inter-word; */
+    background-color: aquamarine;
+    margin-top: 50px;
+    padding: 5px;
+    padding-top: -50px;
+    border: 1px solid black;
+}
+/* FIRUGRE ================================= */
+
+
+
+
+.explicationsEvolutionMetatronOeM{
+    /* width : 280px;
+    height: 300px; */
+    position: relative;
+    background-color:white;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explicationsEvolutionMetatron{
+    /* width : 300px;
+    height: 300px; */
+    position: relative;
+    background-color:white;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.onMontreMetatron{
+    /* width : 900px;
+    height: 900px; */
+    position: relative;
+    background-color: rgb(244, 217, 204);
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.separateur{
+    height: 5px;
+    width: auto;
+    background-color: rgb(255, 162, 0);
+}
+
+
+.link_Metatron{
+    background-color: rgb(255, 162, 0);
+}

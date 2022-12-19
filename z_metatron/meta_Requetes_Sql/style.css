@@ -1,0 +1,110 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*hyper imp !!! */
+}
+body{background-color: rgb(108, 144, 134);}
+main{
+    margin-left: 25px;
+    margin-right: 25px;
+    /* font-size: 2em; */
+    background-color: rgb(108, 144, 134);
+}
+
+
+/* Graphique ============================================== */
+
+.onMontreMetatron{
+    width : 930px;
+    height: 930px;
+
+    position: relative;
+    background-color: rgb(244, 217, 204);
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#graph2D_1{
+    width:930px;
+    height: 0.1px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#graph2D_2{
+    width:0.1px;
+    height: 930px;
+    background-color: red;
+
+    display: flex;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+#plan {
+    width : 930px;
+    height: 930px;
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.faceD {
+    position: absolute;
+    border-radius: 50%;
+}
+
+#ouest, #nord, #est, #sud{
+    position:absolute;
+    font-size: 2em;
+    color: blue;
+}
+#ouest{left: 0px;bottom: 465px;}
+#nord{left: 465px;top: 0px;}
+#est{right: 0px;bottom: 465px;}
+#sud{left: 465px;bottom: 0px;}
+
+#carre{
+    width:10px;
+    height: 10px;
+    position: fixed;
+
+    text-align: center;
+    display: table;
+}
+
+span {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 0.2em;
+}
+
+/* Graphique ============================================== */
+
+
+
+#cadreExterne{
+    display: flex;
+}
+
+#boutonsEtinformations{
+    margin-left: 5px;
+    width : 800px;
+    border: 1px solid black;
+}
+
+
+h3{
+    color:red;
+}
+
+#xyz, #valeurDeLaConst{ font-size: 3em;}

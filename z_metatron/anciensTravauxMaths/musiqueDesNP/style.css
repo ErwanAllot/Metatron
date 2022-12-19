@@ -1,0 +1,181 @@
+.Prime {
+    color:red;
+}
+
+.nonPrime {
+    color:blue;
+}
+
+#main{
+    text-align: center;
+    font-size: 350px;
+}
+
+#sample-1{ width:100px; height:100px; }
+
+.parent-div {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+}
+
+.parent-deux {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+}
+
+/*ROND*/
+.espaceRond{width:5px;}
+
+.rond_1{
+	width:250px;
+	height:250px;
+	-webkit-border-radius:125px;
+	-moz-border-radius:125px;
+	-o-border-radius:125px;
+	border-radius:125px;
+}
+
+.rond_2{
+	width:200px;
+	height:200px;
+    -webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
+	border-radius:100px;
+}
+
+.rond_3{
+	width:150px;
+	height:150px;
+	-webkit-border-radius:75px;
+	-moz-border-radius:75px;
+	-o-border-radius:75px;
+	border-radius:75px;
+}
+
+.rond_4{
+	width:100px;
+	height:100px;
+	-webkit-border-radius:50px;
+	-moz-border-radius:50px;
+	-o-border-radius:50px;
+	border-radius:50px;
+}
+
+.rond_0 span{
+    text-align: center;
+    height:250px;
+    width:250px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.rond_1 span{
+    text-align: center;
+    height:250px;
+    width:250px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.rond_2 span{
+    text-align: center;
+    height:200px;
+    width:200px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+.rond_3 span{
+    text-align: center;
+    height:150px;
+    width:150px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.rond_4 span{
+    text-align: center;
+    height:100px;
+    width:100px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+
+/*CARRE*/
+.espaceCarre{width:55px;}
+
+.carre_1{width:200px;height:200px;}
+.carre_2{width:150px;height:150px;margin-top: 50px;}
+.carre_3{width:100px;height:100px;margin-top: 100px;}
+.carre_4{width:75px;height:75px; margin-top: 125px; }
+
+
+
+.carre_0 span{
+    text-align: center;
+    height:200px;
+    width:200px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.carre_1 span{
+    text-align: center;
+    height:200px;
+    width:200px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 45px;
+}
+
+.carre_2 span{
+    text-align: center;
+    height:150px;
+    width:150px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 35px;
+}
+
+.carre_3 span{
+    text-align: center;
+    height:100px;
+    width:100px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.carre_4 span{
+    text-align: center;
+    height:75px;
+    width:75px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.espaceTriangle{width:155px;}
+
+#boutton{
+    font-size: 40px;
+}
+
+#boutton:hover {
+    background-color: gold;
+  }
+
+.colonne{
+    margin-top:100px;
+    font-size: 40px;
+    text-align: justify;
+    text-justify: inter-word;
+}

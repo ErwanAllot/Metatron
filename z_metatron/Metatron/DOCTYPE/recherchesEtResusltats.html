@@ -1,0 +1,129 @@
+<br>
+<div>
+    <h2>Recherches et Résultats :</h2>
+    <p>
+        <br>
+        &nbsp;
+        On peut observer le Métatron en le coupant en tranches. 
+        La Figure 3 présente les 3 types de tranches que nous pouvons 
+        réaliser.
+        <br><br>  
+    </p>
+    <br>
+    <div id="miseEnPageDesEtapes">  
+
+        <div class="explicationsEvolutionMetatron">
+            <img id="Figure3a" src="<?php echo $tranchePlan; ?>" alt="tranche du Métatron en plan">
+            <div class="figure_Numero"><strong>Figure 3-a</strong></div>
+        </div>
+
+        <div class="explicationsEvolutionMetatron">
+            <img id="Figure3b" src="<?php echo $trancheEscalier; ?>" alt="tranche du Métatron en escalier">
+            <div class="figure_Numero"><strong>Figure 3-b</strong></div>
+        </div>
+
+        <div class="explicationsEvolutionMetatron">
+            <img id="Figure3c" src="<?php echo $trancheKeima; ?>" alt="tranche du Métatron en multi-escalier">
+            <div class="figure_Numero"><strong>Figure 3-c</strong></div>
+        </div>
+
+    </div>
+
+    <div class="figure_Legende">
+        <p>
+            &nbsp;
+            <i class="figure_Titre">
+                <strong>Figure 3 :</strong> présentation de 3 façons de trancher le métatron 
+            </i>
+            <br>&nbsp;
+            Nous sommes en 3D. Il y a donc 3 axes : abcisse (x), ordonnée (y) et cote (z).
+            <br>&nbsp;
+            <strong>Figure 3_a :</strong> Le plus basique auquel tout le monde pense. 
+            L'un des 3 paramètres est une constante. C'est ce plan que j'ai étudié et dont 
+            on parle ensuite. On appelera ce plan, la "tranche standard".
+            <br>&nbsp; 
+            <strong>Figure 3_b :</strong> Il s'agit d'un escalier. J'ai difficilement 
+            réussi à faire des requêtes SQL avec cet escalier, je suis limité dans mon travail 
+            et je ne peux pas vous présenter de résultat.
+            <br>&nbsp; 
+            <strong>Figure 3_c :</strong> Je ne sais pas comment appeler cette tranche en diagonal. 
+            Aucune recherche n'a été réalisée dans cette perspective.
+
+
+
+        </p>
+    </div>
+
+    <p>
+        <br><br>
+        &nbsp;
+        Comme nous l'avons vu en introduction, 
+        nous obtenons quelques alignements de nombres premiers 
+        au sein du Métatron.
+        <br><br>
+        &nbsp;
+        Pour aller plus loin, j'ai réécrit l'algorithme JS en PHP 
+        et enregistré les coordonnées de plus de 2 millions de 
+        nombres premiers dans une base SQL. Suite à ça, j'ai observé 
+        la répartition de ces nombres en coupant le Métatron par tranches, 
+        en plan (comme illustré Figure 3-a). 
+        <br><br>
+        &nbsp;
+        Il existe 3 sous-types du plan selon si l'un des 3 paramètres 
+        x (abcisse), y (ordonnée) ou z (profondeur) est la constante. 
+
+  
+    </p>
+    <br>
+
+    <div id="miseEnPageDesEtapes">  
+        <div id="onMontreMetatron" class="onMontreMetatron">
+            <img id="Figure4a" src="<?php echo $planZ; ?>" alt="tranche en plan du Metatron avec z = -107 avec une base de donnée des 2 premiers millions nombres premiers">
+            <div class="figure_Numero"><strong>Figure 4-a</strong></div>
+        </div>
+
+        <div id="onMontreMetatron" class="onMontreMetatron">
+            <img id="Figure4b" src="<?php echo $planX; ?>" alt="tranche en plan du Metatron avec x = 1 avec une base de donnée des 2 premiers millions nombres premiers">
+            <div class="figure_Numero"><strong>Figure 4-b</strong></div>
+        </div>
+    </div>
+
+    <div class="figure_Legende">
+        <p>
+            &nbsp;
+            <i class="figure_Titre">
+                <strong>Figure 4 :</strong> illustration de 2 tranches en plan du Métatron 
+            </i>
+            <br>&nbsp;
+            La base de données qui a permis de générer ces graphiques 
+            contient les positions des premiers 2 millions nombres premiers (en rouge).
+            <br>&nbsp;
+            <strong>Figure 3_a :</strong> Il apparait dans ce plan en particulier (z = -107) 
+            (selon la trajectoire en 3D initiale), 
+            qu'il y a des alignements verticaux en haut à gauche et diagonaux en bas 
+            à droite.
+            <br>&nbsp;
+            <strong>Figure 3_b :</strong> Il apparait aussi, lorsque x est une constante, des 
+            nombres premiers clairsemés dans certaines zones (ici en en haut à droite) 
+            qui dépend d'une modulation 
+            ternaire de x.
+            <br>&nbsp;
+            Pour éviter de surcharger la page actuelle, j'ai volontairement fait de ces 
+            illustrations des images. Il est possible de visualiser les tranches du métatron 
+            <a href="../meta_Requetes_Sql" target="_blank" class="link_Metatron">ICI</a>.
+
+
+        </p>
+    </div>
+
+
+    <p>
+        <br>&nbsp;
+        Les résultats sont pour l'instant très limités. Il apparait que les motifs 
+        en plan sont très différents selon si nous sélectionnons comme constante 
+        x, y ou z. 
+        <br>&nbsp;
+          
+    </p>
+
+</div>
